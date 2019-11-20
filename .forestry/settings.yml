@@ -4,12 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: dddd
 - type: document
-  path: src/content/testowy.json
+  path: src/content/testowy
   label: test4
   match: "**/*"
+- type: heading
+  label: dddd
 - type: directory
   path: src/pages
   label: test
