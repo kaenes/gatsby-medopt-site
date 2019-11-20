@@ -5,15 +5,15 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: src/content/testowy
+  path: src/content/testowy.json
   label: test4
   match: "**/*"
 - type: heading
   label: dddd
 - type: directory
   path: src/pages
-  label: test
-  create: all
+  label: topages
+  create: documents
   match: "**/*"
 - type: document
   path: src/pages/about.js
