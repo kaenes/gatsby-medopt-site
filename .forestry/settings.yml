@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: dddd
 - type: document
   path: src/content/testowy.json
   label: test4
@@ -16,13 +18,13 @@ sections:
 - type: document
   path: src/pages/about.js
   label: page
+- type: heading
+  label: Blog-Posts
 - type: directory
   path: src/content/posts
   label: blog-posts
   create: documents
   match: "**/*"
-- type: heading
-  label: Blog-Posts
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
